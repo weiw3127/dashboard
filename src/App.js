@@ -50,7 +50,7 @@ const App = () => {
                         <Route path="/kanban" element={<Kanban/>}/>
                         <Route path="/editor" element={<Editor/>}/>
                         <Route path="/calendar" element={<Calendar/>}/>
-                        <Route path="/color-pick" element={<ColorPick/>}/>
+                        <Route path="/color-picker" element={<ColorPick/>}/>
 
                         {/* Charts */}
                         <Route path="/line" element={<Line/>}/>
